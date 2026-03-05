@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/+++Workdata/Scenes/UI_Scenes/MainMenu.unity
+    guid: 73c247170d039ae42b300ea7394b6c1c
+  - enabled: 1
+    path: Assets/+++Workdata/Scenes/NaomiTestScene.unity
+    guid: 1b209cf992b00f14380ba9387111144b
+  - enabled: 1
+    path: Assets/+++Workdata/Scenes/TufanPrototype LvL.unity
+    guid: c0a1aad1e3f3e954db22b2ea877191d4
+  - enabled: 1
+    path: Assets/+++Workdata/Scenes/Tufan LVL 2.unity
+    guid: f23b706ec84ba0e4685d7a6883122ed2
+  - enabled: 1
+    path: Assets/+++Workdata/Scenes/UI_Scenes/PauseMenu.unity
+    guid: 82a08f382c6a40344a21ab56f8360a33
+  - enabled: 1
+    path: Assets/+++Workdata/Scenes/UI_Scenes/Options.unity
+    guid: 8f2150fa3c4a84b47896b215d2697495
+  - enabled: 1
+    path: Assets/+++Workdata/Scenes/UI_Scenes/OptionsScroll.unity
+    guid: 542826c359ec055488451117b7d249ae
+  m_configObjects:
+    com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
+  m_UseUCBPForAssetBundles: 0

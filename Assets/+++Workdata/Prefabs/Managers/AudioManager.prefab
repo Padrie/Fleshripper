@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3214189955465602078
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 249381200896937481}
+  - component: {fileID: 8193728799878538706}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &249381200896937481
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3214189955465602078}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 7000.8926, y: 38.44728, z: 62.60508}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8193728799878538706
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3214189955465602078}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2648a38f273e5a24e80adab9af8cf0fd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: EnemyAttack
+    audio:
+    - {fileID: 8300000, guid: a24616aa84783ef4d94bfef57254d50a, type: 3}
+    playOnStart: 1
+    volume: 0.4
+    pitch: 1
+    loop: 0
+    dontInterrupt: 0
+    source: {fileID: 0}
+  - name: PlayerDamaged
+    audio:
+    - {fileID: 8300000, guid: 4a51c6243d79b324db79b51397427e96, type: 3}
+    - {fileID: 8300000, guid: 7d1648c78ef966c44a6bc9f77348155c, type: 3}
+    - {fileID: 8300000, guid: 0bfd8cf3a11a0e54c8f67ebfa83573d2, type: 3}
+    - {fileID: 8300000, guid: a998edc4b42d0ae4aa24bdbb92d202ca, type: 3}
+    - {fileID: 8300000, guid: d7dcd0ebaf3694e489b213d7e7b3ac45, type: 3}
+    - {fileID: 8300000, guid: 4d9a17b951f138a489b223e66ff155e7, type: 3}
+    playOnStart: 1
+    volume: 1
+    pitch: 1
+    loop: 0
+    dontInterrupt: 1
+    source: {fileID: 0}
+  - name: MachineGunShoot
+    audio:
+    - {fileID: 8300000, guid: f03d52bb224d03d47ac79a24d0b0c40f, type: 3}
+    - {fileID: 8300000, guid: d4f95b924bb97004099f5198512810e0, type: 3}
+    - {fileID: 8300000, guid: 4f501cefc2203cf4ea29e1abdcd70c60, type: 3}
+    - {fileID: 8300000, guid: 7888fc1f9e3891c46a71feba17e779c7, type: 3}
+    playOnStart: 1
+    volume: 0.4
+    pitch: 1.4
+    loop: 0
+    dontInterrupt: 0
+    source: {fileID: 0}
+  - name: MachineGunReload
+    audio:
+    - {fileID: 8300000, guid: ffb3e45952ea88d4dae129ec9ab79cb8, type: 3}
+    playOnStart: 1
+    volume: 0.4
+    pitch: 1
+    loop: 0
+    dontInterrupt: 1
+    source: {fileID: 0}
+  - name: DashRecharged
+    audio:
+    - {fileID: 8300000, guid: aaa692f051dbe444cb23e3056a533a88, type: 3}
+    playOnStart: 1
+    volume: 0.2
+    pitch: 0.4
+    loop: 0
+    dontInterrupt: 0
+    source: {fileID: 0}

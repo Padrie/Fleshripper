@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25e341ce64a315b44a3d9a8a8a1c3e25, type: 3}
+  m_Name: ShotGunLevel1
+  m_EditorClassIdentifier: 
+  ammoAmount: 30
+  reloadTime: 0.75
+  bulletSpread: 0.15
+  shootSpeed: 0.75
+  bulletAmount: 8

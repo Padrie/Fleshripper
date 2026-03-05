@@ -1,0 +1,203 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7309973436471517446
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Music.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/+++Workdata/Builds/Desktop/Music.bank
+  Name: Music
+  StudioPath: bank:/Music
+  lastModified: 638901569942256156
+  FileSizes: []
+  Exists: 1
+--- !u!114 &-6493085245060343342
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/+++Workdata/Builds/Desktop/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 638901569938732997
+  FileSizes: []
+  Exists: 1
+--- !u!114 &-3682157271338034827
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/+++Workdata/Builds/Desktop/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 638901569938752995
+  FileSizes:
+  - Name: 
+    Value: 1008
+  Exists: 1
+--- !u!114 &-3073370052207666931
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/Level 1/Calm
+  m_EditorClassIdentifier: 
+  Path: event:/Music/Level 1/Calm
+  Guid:
+    Data1: 215305291
+    Data2: 1215373405
+    Data3: 537835157
+    Data4: -1807176577
+  Banks:
+  - {fileID: -7309973436471517446}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 76837
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
+  m_Name: FMODStudioCache
+  m_EditorClassIdentifier: 
+  EditorBanks:
+  - {fileID: -3682157271338034827}
+  - {fileID: -6493085245060343342}
+  - {fileID: -7309973436471517446}
+  EditorEvents:
+  - {fileID: 6411064994035228321}
+  - {fileID: -3073370052207666931}
+  - {fileID: 6811951546267282123}
+  - {fileID: 5064758440085447135}
+  EditorParameters: []
+  MasterBanks:
+  - {fileID: -6493085245060343342}
+  StringsBanks:
+  - {fileID: -3682157271338034827}
+  cacheVersion: 131848
+  cacheTime: 638901569942256156
+  SerializableEventsDict:
+  - key: event:/Music/Level 1/Combat
+    index: 0
+  - key: event:/Music/Level 1/Calm
+    index: 1
+  - key: event:/Music/Level 2/Combat
+    index: 2
+  - key: event:/Music/Level 2/Calm
+    index: 3
+--- !u!114 &5064758440085447135
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/Level 2/Calm
+  m_EditorClassIdentifier: 
+  Path: event:/Music/Level 2/Calm
+  Guid:
+    Data1: 1362050746
+    Data2: 1317251463
+    Data3: -408670590
+    Data4: 814997999
+  Banks:
+  - {fileID: -7309973436471517446}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 162461
+--- !u!114 &6411064994035228321
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/Level 1/Combat
+  m_EditorClassIdentifier: 
+  Path: event:/Music/Level 1/Combat
+  Guid:
+    Data1: -1070445293
+    Data2: 1183463853
+    Data3: 667424911
+    Data4: 1498775622
+  Banks:
+  - {fileID: -7309973436471517446}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 189285
+--- !u!114 &6811951546267282123
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/Level 2/Combat
+  m_EditorClassIdentifier: 
+  Path: event:/Music/Level 2/Combat
+  Guid:
+    Data1: -525665186
+    Data2: 1216684764
+    Data3: -1322292056
+    Data4: 1499974520
+  Banks:
+  - {fileID: -7309973436471517446}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 151606
