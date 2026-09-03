@@ -25,4 +25,4 @@ In our game, we had two guns and two special bullets. The first gun was a machin
 Then we also have the special bullets. The first is the Explosive bullet, that would deal an Area of effect blast, pushing enemies back, and would damage them in a radius. And the lightning bullet, that would chain lightning bolt from one enemy to another, dealing massive damage.
 
 ![Shotgun](1.png)
-![Explosion](2.png)
+![Explosion](explosionEffect.gif)
